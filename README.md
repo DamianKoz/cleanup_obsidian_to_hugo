@@ -2,11 +2,13 @@
 
 The Obsidian Markdown Cleanup is a Python script that removes Obsidian-style link brackets from a text file, while preserving any link text that was present.
 
+I made this, because I use Obsidian as my main markdown editor, and want to use its strong links. The problem was, that Hugo rendered the link brackets as well, and this script removed the need to manually remove all the brackets.
+
 # Usage
 
 To use the script, simply run it with a single argument specifying the name of the file to process. For example:
 
-`python cleanup.py my_text_file.md`
+`python cleanup/cleanup.py my_text_file.md`
 
 This will remove any link brackets from `my_text_file.md` and save the modified content back to the same file.
 
